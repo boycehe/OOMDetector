@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		000F1DF320D26C13006291DC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 000F1DF220D26C13006291DC /* AppDelegate.m */; };
+		000F1DF620D26C13006291DC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 000F1DF520D26C13006291DC /* ViewController.m */; };
+		000F1DF920D26C13006291DC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 000F1DF720D26C13006291DC /* Main.storyboard */; };
+		000F1DFB20D26C15006291DC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 000F1DFA20D26C15006291DC /* Assets.xcassets */; };
+		000F1DFE20D26C15006291DC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 000F1DFC20D26C15006291DC /* LaunchScreen.storyboard */; };
+		000F1E0120D26C15006291DC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 000F1E0020D26C15006291DC /* main.m */; };
 		6B12C6421F9621F9000B42F0 /* DemoListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B12C6411F9621F9000B42F0 /* DemoListViewController.m */; };
 		6B12C6461F962E14000B42F0 /* DemoViewController0.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B12C6451F962E14000B42F0 /* DemoViewController0.m */; };
 		6B12C6491F962EA9000B42F0 /* DemoViewController1.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B12C6481F962EA9000B42F0 /* DemoViewController1.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
@@ -22,6 +28,16 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		000F1DEF20D26C13006291DC /* OOMTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OOMTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		000F1DF120D26C13006291DC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		000F1DF220D26C13006291DC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		000F1DF420D26C13006291DC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		000F1DF520D26C13006291DC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		000F1DF820D26C13006291DC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		000F1DFA20D26C15006291DC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		000F1DFD20D26C15006291DC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		000F1DFF20D26C15006291DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		000F1E0020D26C15006291DC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		6B12C6401F9621F9000B42F0 /* DemoListViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DemoListViewController.h; sourceTree = "<group>"; };
 		6B12C6411F9621F9000B42F0 /* DemoListViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DemoListViewController.m; sourceTree = "<group>"; };
 		6B12C6441F962E14000B42F0 /* DemoViewController0.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DemoViewController0.h; sourceTree = "<group>"; };
@@ -47,6 +63,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		000F1DEC20D26C13006291DC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		6B8C22DD1F8E494C007DE399 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -58,6 +81,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		000F1DF020D26C13006291DC /* OOMTest */ = {
+			isa = PBXGroup;
+			children = (
+				000F1DF120D26C13006291DC /* AppDelegate.h */,
+				000F1DF220D26C13006291DC /* AppDelegate.m */,
+				000F1DF420D26C13006291DC /* ViewController.h */,
+				000F1DF520D26C13006291DC /* ViewController.m */,
+				000F1DF720D26C13006291DC /* Main.storyboard */,
+				000F1DFA20D26C15006291DC /* Assets.xcassets */,
+				000F1DFC20D26C15006291DC /* LaunchScreen.storyboard */,
+				000F1DFF20D26C15006291DC /* Info.plist */,
+				000F1E0020D26C15006291DC /* main.m */,
+			);
+			path = OOMTest;
+			sourceTree = "<group>";
+		};
 		6B12C6431F962DF4000B42F0 /* Demos */ = {
 			isa = PBXGroup;
 			children = (
@@ -79,6 +118,7 @@
 			isa = PBXGroup;
 			children = (
 				6B8C22E21F8E494C007DE399 /* OOMDetectorDemo */,
+				000F1DF020D26C13006291DC /* OOMTest */,
 				6B8C22E11F8E494C007DE399 /* Products */,
 				6B9A04F21FD5816F00414B1F /* Frameworks */,
 			);
@@ -88,6 +128,7 @@
 			isa = PBXGroup;
 			children = (
 				6B8C22E01F8E494C007DE399 /* OOMDetector.app */,
+				000F1DEF20D26C13006291DC /* OOMTest.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -121,6 +162,23 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		000F1DEE20D26C13006291DC /* OOMTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 000F1E0420D26C15006291DC /* Build configuration list for PBXNativeTarget "OOMTest" */;
+			buildPhases = (
+				000F1DEB20D26C13006291DC /* Sources */,
+				000F1DEC20D26C13006291DC /* Frameworks */,
+				000F1DED20D26C13006291DC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OOMTest;
+			productName = OOMTest;
+			productReference = 000F1DEF20D26C13006291DC /* OOMTest.app */;
+			productType = "com.apple.product-type.application";
+		};
 		6B8C22DF1F8E494C007DE399 /* OOMDetector */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6B8C22F61F8E494C007DE399 /* Build configuration list for PBXNativeTarget "OOMDetector" */;
@@ -147,6 +205,10 @@
 				LastUpgradeCheck = 0900;
 				ORGANIZATIONNAME = shaodonggao;
 				TargetAttributes = {
+					000F1DEE20D26C13006291DC = {
+						CreatedOnToolsVersion = 9.3.1;
+						ProvisioningStyle = Automatic;
+					};
 					6B8C22DF1F8E494C007DE399 = {
 						CreatedOnToolsVersion = 9.0;
 						ProvisioningStyle = Automatic;
@@ -167,11 +229,22 @@
 			projectRoot = "";
 			targets = (
 				6B8C22DF1F8E494C007DE399 /* OOMDetector */,
+				000F1DEE20D26C13006291DC /* OOMTest */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		000F1DED20D26C13006291DC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				000F1DFE20D26C15006291DC /* LaunchScreen.storyboard in Resources */,
+				000F1DFB20D26C15006291DC /* Assets.xcassets in Resources */,
+				000F1DF920D26C13006291DC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		6B8C22DE1F8E494C007DE399 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -184,6 +257,16 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		000F1DEB20D26C13006291DC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				000F1DF620D26C13006291DC /* ViewController.m in Sources */,
+				000F1E0120D26C15006291DC /* main.m in Sources */,
+				000F1DF320D26C13006291DC /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		6B8C22DC1F8E494C007DE399 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -203,6 +286,22 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
+		000F1DF720D26C13006291DC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				000F1DF820D26C13006291DC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		000F1DFC20D26C15006291DC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				000F1DFD20D26C15006291DC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
 		6B8C22EE1F8E494C007DE399 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -214,6 +313,44 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		000F1E0220D26C15006291DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 35326DBFMT;
+				INFOPLIST_FILE = OOMTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dream.OOMTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		000F1E0320D26C15006291DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 35326DBFMT;
+				INFOPLIST_FILE = OOMTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dream.OOMTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 		6B8C22F41F8E494C007DE399 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -375,6 +512,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		000F1E0420D26C15006291DC /* Build configuration list for PBXNativeTarget "OOMTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				000F1E0220D26C15006291DC /* Debug */,
+				000F1E0320D26C15006291DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		6B8C22DB1F8E494C007DE399 /* Build configuration list for PBXProject "OOMDetector" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

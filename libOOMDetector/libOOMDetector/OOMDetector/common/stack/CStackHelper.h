@@ -50,8 +50,8 @@ typedef struct AppImages
 class CStackHelper
 {
 public:
-    CStackHelper();
-    ~CStackHelper();
+    CStackHelper();//构造函数
+    ~CStackHelper();//析构函数
     bool isInAppAddress(vm_address_t addr);
     bool getImageByAddr(vm_address_t addr,segImageInfo *image);
     size_t recordBacktrace(BOOL needSystemStack,size_t needAppStackCount,size_t backtrace_to_skip, vm_address_t **app_stack,unsigned char *md5,size_t max_stack_depth);
